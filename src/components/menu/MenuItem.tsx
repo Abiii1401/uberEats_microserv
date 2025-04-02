@@ -69,7 +69,7 @@ const MenuItem = ({ item, onAddToCart }: MenuItemProps) => {
               {(isPopular || isVegetarian || isSpicy) && (
                 <div className="flex gap-2 mt-1">
                   {isPopular && (
-                    <Badge variant="outline" className="bg-nomnom-orange/10 text-nomnom-orange border-nomnom-orange/30">
+                    <Badge variant="outline" className="bg-SLIITery-orange/10 text-SLIITery-orange border-SLIITery-orange/30">
                       Popular
                     </Badge>
                   )}

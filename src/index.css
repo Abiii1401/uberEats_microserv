@@ -113,11 +113,11 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    @apply bg-nomnom-gray/40 rounded-full;
+    @apply bg-SLIITery-gray/40 rounded-full;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    @apply bg-nomnom-gray/60;
+    @apply bg-SLIITery-gray/60;
   }
 }
 

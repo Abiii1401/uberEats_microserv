@@ -63,13 +63,13 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// NomNom custom colors
-				"nomnom-orange": "#FF6B35",
-				"nomnom-red": "#FF3B30",
-				"nomnom-green": "#4CD964",
-				"nomnom-light": "#F8F9FA",
-				"nomnom-dark": "#333333",
-				"nomnom-gray": "#6C757D"
+				// SLIITery custom colors
+				"SLIITery-orange": "#FF6B35",
+				"SLIITery-red": "#FF3B30",
+				"SLIITery-green": "#4CD964",
+				"SLIITery-light": "#F8F9FA",
+				"SLIITery-dark": "#333333",
+				"SLIITery-gray": "#6C757D"
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

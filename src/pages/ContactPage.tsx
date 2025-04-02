@@ -43,38 +43,38 @@ const ContactPage = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className="bg-white rounded-lg p-6 shadow-sm flex flex-col items-center md:items-start text-center md:text-left">
-            <div className="w-12 h-12 bg-nomnom-orange/10 rounded-full flex items-center justify-center mb-4">
-              <Mail className="text-nomnom-orange h-6 w-6" />
+            <div className="w-12 h-12 bg-SLIITery-orange/10 rounded-full flex items-center justify-center mb-4">
+              <Mail className="text-SLIITery-orange h-6 w-6" />
             </div>
             <h3 className="text-xl font-semibold mb-2">Email</h3>
             <p className="text-muted-foreground mb-2">For general inquiries:</p>
-            <a href="mailto:info@nomnom.com" className="text-nomnom-orange hover:underline">
-              info@nomnom.com
+            <a href="mailto:info@SLIITery.com" className="text-SLIITery-orange hover:underline">
+              info@SLIITery.com
             </a>
             <p className="text-muted-foreground mt-2 mb-1">For support:</p>
-            <a href="mailto:support@nomnom.com" className="text-nomnom-orange hover:underline">
-              support@nomnom.com
+            <a href="mailto:support@SLIITery.com" className="text-SLIITery-orange hover:underline">
+              support@SLIITery.com
             </a>
           </div>
           
           <div className="bg-white rounded-lg p-6 shadow-sm flex flex-col items-center md:items-start text-center md:text-left">
-            <div className="w-12 h-12 bg-nomnom-orange/10 rounded-full flex items-center justify-center mb-4">
-              <Phone className="text-nomnom-orange h-6 w-6" />
+            <div className="w-12 h-12 bg-SLIITery-orange/10 rounded-full flex items-center justify-center mb-4">
+              <Phone className="text-SLIITery-orange h-6 w-6" />
             </div>
             <h3 className="text-xl font-semibold mb-2">Phone</h3>
             <p className="text-muted-foreground mb-2">Customer Service:</p>
-            <a href="tel:+18001234567" className="text-nomnom-orange hover:underline">
+            <a href="tel:+18001234567" className="text-SLIITery-orange hover:underline">
               1-800-123-4567
             </a>
             <p className="text-muted-foreground mt-2 mb-1">Restaurant Partners:</p>
-            <a href="tel:+18009876543" className="text-nomnom-orange hover:underline">
+            <a href="tel:+18009876543" className="text-SLIITery-orange hover:underline">
               1-800-987-6543
             </a>
           </div>
           
           <div className="bg-white rounded-lg p-6 shadow-sm flex flex-col items-center md:items-start text-center md:text-left">
-            <div className="w-12 h-12 bg-nomnom-orange/10 rounded-full flex items-center justify-center mb-4">
-              <MapPin className="text-nomnom-orange h-6 w-6" />
+            <div className="w-12 h-12 bg-SLIITery-orange/10 rounded-full flex items-center justify-center mb-4">
+              <MapPin className="text-SLIITery-orange h-6 w-6" />
             </div>
             <h3 className="text-xl font-semibold mb-2">Address</h3>
             <p className="text-muted-foreground">
@@ -94,7 +94,7 @@ const ContactPage = () => {
               allowFullScreen={false} 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              title="NomNom location map"
+              title="SLIITery location map"
             ></iframe>
           </div>
           

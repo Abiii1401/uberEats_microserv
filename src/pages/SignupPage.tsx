@@ -78,7 +78,7 @@ const SignupPage = () => {
 
       // Mock successful signup
       toast({
-        title: `Welcome to NomNom, ${data.name}!`,
+        title: `Welcome to SLIITery, ${data.name}!`,
         description: "Your account has been created successfully",
       });
 
@@ -92,13 +92,13 @@ const SignupPage = () => {
         <Card className="w-full max-w-md">
           <CardHeader className="space-y-1">
             <div className="flex justify-center mb-4">
-              <div className="w-12 h-12 rounded-full bg-nomnom-orange flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-SLIITery-orange flex items-center justify-center">
                 <span className="text-white font-bold text-xl">N</span>
               </div>
             </div>
             <CardTitle className="text-2xl font-bold text-center">Create an account</CardTitle>
             <CardDescription className="text-center">
-              Get started with NomNom today
+              Get started with SLIITery today
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -235,14 +235,14 @@ const SignupPage = () => {
                           I accept the{" "}
                           <Link
                             to="/terms"
-                            className="text-nomnom-orange hover:underline"
+                            className="text-SLIITery-orange hover:underline"
                           >
                             terms and conditions
                           </Link>{" "}
                           and{" "}
                           <Link
                             to="/privacy"
-                            className="text-nomnom-orange hover:underline"
+                            className="text-SLIITery-orange hover:underline"
                           >
                             privacy policy
                           </Link>
@@ -262,7 +262,7 @@ const SignupPage = () => {
                   </span>
                   <Link
                     to="/login"
-                    className="font-medium text-nomnom-orange hover:underline"
+                    className="font-medium text-SLIITery-orange hover:underline"
                   >
                     Sign in
                   </Link>

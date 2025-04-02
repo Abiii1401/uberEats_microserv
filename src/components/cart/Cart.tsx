@@ -61,7 +61,7 @@ const Cart = ({
         <Button variant="ghost" className="relative">
           <ShoppingCart className="h-5 w-5" />
           {cartItems.length > 0 && (
-            <span className="absolute -top-1 -right-1 bg-nomnom-orange text-white rounded-full w-5 h-5 text-xs flex items-center justify-center">
+            <span className="absolute -top-1 -right-1 bg-SLIITery-orange text-white rounded-full w-5 h-5 text-xs flex items-center justify-center">
               {cartItems.reduce((count, item) => count + item.quantity, 0)}
             </span>
           )}

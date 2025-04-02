@@ -6,13 +6,13 @@ const AboutPage = () => {
   return (
     <Layout>
       <div className="container-custom py-12">
-        <h1 className="text-4xl font-bold mb-8">About NomNom</h1>
+        <h1 className="text-4xl font-bold mb-8">About SLIITery</h1>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div>
             <h2 className="text-2xl font-semibold mb-4">Our Story</h2>
             <p className="text-muted-foreground mb-4">
-              NomNom was founded in 2023 with a simple mission: to connect hungry people with delicious food from local restaurants, delivered fast and fresh to their doorstep.
+              SLIITery was founded in 2023 with a simple mission: to connect hungry people with delicious food from local restaurants, delivered fast and fresh to their doorstep.
             </p>
             <p className="text-muted-foreground mb-4">
               What started as a small operation in one city has quickly grown into a platform serving multiple locations, with thousands of restaurant partners and delivery drivers.
@@ -41,8 +41,8 @@ const AboutPage = () => {
           <h2 className="text-2xl font-semibold mb-6">How It Works</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 bg-nomnom-orange/10 rounded-full flex items-center justify-center mb-4">
-                <span className="text-nomnom-orange font-bold text-xl">1</span>
+              <div className="w-12 h-12 bg-SLIITery-orange/10 rounded-full flex items-center justify-center mb-4">
+                <span className="text-SLIITery-orange font-bold text-xl">1</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Browse</h3>
               <p className="text-muted-foreground">
@@ -50,8 +50,8 @@ const AboutPage = () => {
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 bg-nomnom-orange/10 rounded-full flex items-center justify-center mb-4">
-                <span className="text-nomnom-orange font-bold text-xl">2</span>
+              <div className="w-12 h-12 bg-SLIITery-orange/10 rounded-full flex items-center justify-center mb-4">
+                <span className="text-SLIITery-orange font-bold text-xl">2</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Order</h3>
               <p className="text-muted-foreground">
@@ -59,8 +59,8 @@ const AboutPage = () => {
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 bg-nomnom-orange/10 rounded-full flex items-center justify-center mb-4">
-                <span className="text-nomnom-orange font-bold text-xl">3</span>
+              <div className="w-12 h-12 bg-SLIITery-orange/10 rounded-full flex items-center justify-center mb-4">
+                <span className="text-SLIITery-orange font-bold text-xl">3</span>
               </div>
               <h3 className="text-xl font-semibold mb-2">Enjoy</h3>
               <p className="text-muted-foreground">

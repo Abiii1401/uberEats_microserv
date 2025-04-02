@@ -48,7 +48,7 @@ const RestaurantCard = ({ restaurant }: RestaurantCardProps) => {
         />
         {isNew && (
           <Badge
-            className="absolute top-2 left-2 bg-nomnom-orange text-white"
+            className="absolute top-2 left-2 bg-SLIITery-orange text-white"
           >
             New
           </Badge>
@@ -56,7 +56,7 @@ const RestaurantCard = ({ restaurant }: RestaurantCardProps) => {
         {promotion && (
           <Badge
             variant="outline"
-            className="absolute top-2 right-2 bg-white/95 text-nomnom-orange border-nomnom-orange"
+            className="absolute top-2 right-2 bg-white/95 text-SLIITery-orange border-SLIITery-orange"
           >
             {promotion}
           </Badge>
@@ -64,7 +64,7 @@ const RestaurantCard = ({ restaurant }: RestaurantCardProps) => {
       </div>
 
       <div className="p-4">
-        <h3 className="font-bold text-lg mb-1 group-hover:text-nomnom-orange transition-colors">
+        <h3 className="font-bold text-lg mb-1 group-hover:text-SLIITery-orange transition-colors">
           {name}
         </h3>
         <p className="text-muted-foreground text-sm mb-2">{cuisine}</p>

@@ -201,7 +201,7 @@ const RestaurantDetailPage = () => {
                 </div>
                 
                 <div className="flex items-center">
-                  <Badge className="bg-nomnom-orange text-white flex items-center gap-1">
+                  <Badge className="bg-SLIITery-orange text-white flex items-center gap-1">
                     <Star className="fill-white stroke-white h-3 w-3" />
                     <span>{restaurant.rating}</span>
                   </Badge>

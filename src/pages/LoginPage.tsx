@@ -66,7 +66,7 @@ const LoginPage = () => {
       
       toast({
         title: `Welcome back, ${nameFromEmail}!`,
-        description: "You've successfully logged in to NomNom",
+        description: "You've successfully logged in to SLIITery",
       });
       
       navigate("/");
@@ -79,13 +79,13 @@ const LoginPage = () => {
         <Card className="w-full max-w-md">
           <CardHeader className="space-y-1">
             <div className="flex justify-center mb-4">
-              <div className="w-12 h-12 rounded-full bg-nomnom-orange flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-SLIITery-orange flex items-center justify-center">
                 <span className="text-white font-bold text-xl">N</span>
               </div>
             </div>
             <CardTitle className="text-2xl font-bold text-center">Welcome back</CardTitle>
             <CardDescription className="text-center">
-              Sign in to your NomNom account
+              Sign in to your SLIITery account
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -162,7 +162,7 @@ const LoginPage = () => {
 
                   <Link
                     to="/forgot-password"
-                    className="text-sm font-medium text-nomnom-orange hover:underline"
+                    className="text-sm font-medium text-SLIITery-orange hover:underline"
                   >
                     Forgot password?
                   </Link>
@@ -182,7 +182,7 @@ const LoginPage = () => {
                   </span>
                   <Link
                     to="/signup"
-                    className="font-medium text-nomnom-orange hover:underline"
+                    className="font-medium text-SLIITery-orange hover:underline"
                   >
                     Sign up
                   </Link>

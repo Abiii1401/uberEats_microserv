@@ -62,10 +62,10 @@ const Hero = () => {
               placeholder="Enter your address"
               className="bg-white/95 h-12 pl-10 border-0"
             />
-            <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-nomnom-gray" />
+            <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-SLIITery-gray" />
           </div>
           
-          <Button type="submit" size="lg" className="bg-nomnom-orange hover:bg-nomnom-orange/90">
+          <Button type="submit" size="lg" className="bg-SLIITery-orange hover:bg-SLIITery-orange/90">
             <Search className="h-5 w-5 mr-2" />
             Find Food
           </Button>

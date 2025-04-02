@@ -124,25 +124,25 @@ const Navbar = () => {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 z-20">
-            <div className="relative w-8 h-8 rounded-full bg-nomnom-orange flex items-center justify-center">
+            <div className="relative w-8 h-8 rounded-full bg-SLIITery-orange flex items-center justify-center">
               <span className="text-white font-bold text-lg">N</span>
             </div>
-            <span className="font-bold text-xl">NomNom</span>
+            <span className="font-bold text-xl">SLIITery</span>
           </Link>
           
           {/* Desktop Navigation */}
           {!isMobile && (
             <nav className="hidden md:flex items-center space-x-6">
-              <Link to="/" className="text-foreground hover:text-nomnom-orange transition-colors">
+              <Link to="/" className="text-foreground hover:text-SLIITery-orange transition-colors">
                 Home
               </Link>
-              <Link to="/restaurants" className="text-foreground hover:text-nomnom-orange transition-colors">
+              <Link to="/restaurants" className="text-foreground hover:text-SLIITery-orange transition-colors">
                 Restaurants
               </Link>
-              <Link to="/about" className="text-foreground hover:text-nomnom-orange transition-colors">
+              <Link to="/about" className="text-foreground hover:text-SLIITery-orange transition-colors">
                 About
               </Link>
-              <Link to="/contact" className="text-foreground hover:text-nomnom-orange transition-colors">
+              <Link to="/contact" className="text-foreground hover:text-SLIITery-orange transition-colors">
                 Contact
               </Link>
             </nav>
@@ -211,7 +211,7 @@ const Navbar = () => {
                 <Link to="/cart">
                   <Button variant="ghost" size="icon" className="relative">
                     <ShoppingCart className="h-5 w-5" />
-                    <span className="absolute -top-1 -right-1 bg-nomnom-orange text-white rounded-full w-5 h-5 text-xs flex items-center justify-center">
+                    <span className="absolute -top-1 -right-1 bg-SLIITery-orange text-white rounded-full w-5 h-5 text-xs flex items-center justify-center">
                       3
                     </span>
                   </Button>
@@ -220,7 +220,7 @@ const Navbar = () => {
                 <DropdownMenu>
                   <DropdownMenuTrigger asChild>
                     <Avatar className="cursor-pointer">
-                      <AvatarFallback className="bg-nomnom-orange text-white">
+                      <AvatarFallback className="bg-SLIITery-orange text-white">
                         {getUserInitials()}
                       </AvatarFallback>
                     </Avatar>
@@ -297,7 +297,7 @@ const Navbar = () => {
                 <Button variant="ghost" size="icon" className="relative">
                   <ShoppingCart className="h-5 w-5" />
                   {isAuthenticated && (
-                    <span className="absolute -top-1 -right-1 bg-nomnom-orange text-white rounded-full w-5 h-5 text-xs flex items-center justify-center">
+                    <span className="absolute -top-1 -right-1 bg-SLIITery-orange text-white rounded-full w-5 h-5 text-xs flex items-center justify-center">
                       3
                     </span>
                   )}
